@@ -1,0 +1,10 @@
+﻿# Secrets
+appsettings.json
+
+# Build
+bin/
+obj/
+
+# IDE
+.vs/
+.vscode/
