@@ -12,16 +12,13 @@
 		<PackageReference Include="Discord.Net" Version="3.18.0" />
 		<PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.12" />
 		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.12" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.3" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<None Update="appsettings.json">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Music\" />
 	</ItemGroup>
 
 </Project>
